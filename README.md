@@ -1,9 +1,11 @@
 # International Football Home Advantage 
 
-A Python web application that parses and visualizes over 40,000 international football match results to analyze venue-based performance metrics. Built with Streamlit and Pandas.
+This project applies inferential statistics (specifically the Exact Binomial Test) to a historical dataset of international football matches to mathematically prove the existence and magnitude of the "home advantage" effect.
 
 ## Data Source
-Dataset provided by martj42's international football results repository. All matches played at neutral venues are strictly excluded from the analysis to isolate true home/away environments.
+The dataset used in this analysis is sourced from the [International football results from 1872 to 2024] (https://github.com/martj42/international_results) repository, maintained by Mart Jürisoo. It contains the results of over 40,000 official international football matches, providing a robust, historical sample size for inferential testing.
+
+📊 **[View the Live Dashboard Here](https://your-streamlit-app-url.streamlit.app)**
 
 ## How to Run Locally
 1. Clone this repository.
